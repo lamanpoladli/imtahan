@@ -1,0 +1,145 @@
+.eachslideeffect>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.eachslideeffect span {
+    padding: 20px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.253);
+    color: white;
+
+}
+
+.eachslideeffect span h1 {
+    margin: 5% 0;
+}
+
+.eachslideeffect span button {
+    margin: 5% 0;
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #17a2b8;
+    border: none;
+    transition: 1s;
+}
+.eachslideeffect span button:hover{
+    background-color: white;
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+}
+.colorSec{
+    background-color: #f7f7f7;
+    padding-bottom: 10%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.col24 {
+    margin: 8% 0px 3% 0px;
+}
+.col24 h1{
+    font-size: 50px;
+    color: #17a2b8;
+}
+.col8{
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    padding-top: 5%;
+}
+.col8:hover{
+    border: 4px solid #17a2b8;
+}
+
+
+
+.col8 img{
+    width: 85%;
+}
+
+.col8 h1{
+    margin: 5% 0px;
+}
+.col8 p{
+    margin: 8% 0px;
+}
+.col8 button{
+    width: 30%;
+    height: 50px;
+    background-color: #17a2b8;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 1% 5% 1%;
+}
+.col8 button:hover{
+    background-color: #17a3b85b;
+
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp");
+}
+.section2Row{
+    width: 70%;
+    height: 80%;
+
+}
+.imgDiv{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+}
+.wordDiv{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+}
+.wordDiv p{
+    margin: 8% 0px;
+}
+.wordDiv h1{
+    font-size: 50px;
+}
+.wordDiv button{
+    margin: 8% 0;
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #17a2b8;
+    border: none;
+    transition: 1s;
+}
+.wordDiv button:hover{
+    margin: 8% 0;
+    width: 170px;
+    height: 50px;
+    color: #17a2b8;
+    background-color: white;
+    border: 1px solid #17a2b8;
+}
+.endContainer{
+    width: 70%;
+    height: 100px;
+    margin: 5% auto;
+    display: flex;
+}
